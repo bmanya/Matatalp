@@ -3915,7 +3915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _coinsPool: {fileID: 1157460858}
-  _startingCoins: 10
+  _startingCoins: 2
   _parallelSpawns: 2
   _timeBetweenSpawns: 5
 --- !u!4 &1327530349 stripped

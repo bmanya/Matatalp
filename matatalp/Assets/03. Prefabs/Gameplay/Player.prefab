@@ -219,7 +219,7 @@ MonoBehaviour:
   _hitOrigin: {fileID: 8812364312244201037}
   _hitRadius: 3
   _obtainer: {fileID: -1044256374443538322}
-  _malletHitEffectPrefab: {fileID: 1483974247252157487, guid: 3fb6550a514259d48acfceff3d898846, type: 3}
+  _malletHitEffectPrefab: {fileID: 5750857102101267307, guid: fbceab1e7b09b004e9dafd4e666ce1ff, type: 3}
   _malletHitEffectDuration: 0.3
 --- !u!1 &2788435140579287276
 GameObject:

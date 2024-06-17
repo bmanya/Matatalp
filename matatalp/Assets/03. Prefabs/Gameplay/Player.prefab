@@ -217,7 +217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _hitDelay: 1
   _hitOrigin: {fileID: 8812364312244201037}
-  _hitRadius: 2
+  _hitRadius: 3
   _obtainer: {fileID: -1044256374443538322}
   _malletHitEffectPrefab: {fileID: 1483974247252157487, guid: 3fb6550a514259d48acfceff3d898846, type: 3}
   _malletHitEffectDuration: 0.3
@@ -246,7 +246,7 @@ Transform:
   m_GameObject: {fileID: 2788435140579287276}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1, z: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 2.824}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

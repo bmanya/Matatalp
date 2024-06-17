@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: aa851907991721041b0e504f6c4c1093
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Armature|ArmatureAction' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'chest' has translation animation
+      that will be discarded.\n\t'belly' has translation animation that will be discarded.\n\t'belly'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 20
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: aldo_run_martell(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: aldo_run_martell(Clone)
+      position: {x: -0.00039500016, y: 1.7273747, z: 0.39965442}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 33.924366, y: 33.924366, z: 33.924366}
+    - name: roba
+      parentName: aldo_run_martell(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
+      scale: {x: 33.924366, y: 33.924366, z: 33.924366}
+    - name: Armature
+      parentName: aldo_run_martell(Clone)
+      position: {x: 0, y: 0, z: -0.16502333}
+      rotation: {x: -0.7071067, y: 5.302452e-33, z: 5.302451e-33, w: 0.7071068}
+      scale: {x: 33.924366, y: 33.924366, z: 33.924366}
+    - name: chest
+      parentName: Armature
+      position: {x: -0, y: -0.004864445, z: 0.029420158}
+      rotation: {x: 0.79135704, y: -0.00000009960223, z: -0.000000059745744, w: 0.61135435}
+      scale: {x: 0.9999998, y: 0.9999996, z: 0.9999996}
+    - name: head
+      parentName: chest
+      position: {x: 4.2632563e-16, y: 0.015366738, z: 0}
+      rotation: {x: -0.08813736, y: -3.5527137e-14, z: 0.00000002101357, w: 0.9961084}
+      scale: {x: 1, y: 0.9999994, z: 0.99999964}
+    - name: arm.L
+      parentName: chest
+      position: {x: -0.00583122, y: 0.009984573, z: -0.00045087317}
+      rotation: {x: -0.09564453, y: 0.12246432, z: 0.71577144, w: 0.6808274}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000004}
+    - name: forearm.L
+      parentName: arm.L
+      position: {x: 0.0000000038743018, y: 0.009100245, z: 0}
+      rotation: {x: 0.0152687635, y: -0.026787922, z: -0.034347504, w: 0.9989342}
+      scale: {x: 1, y: 0.99999994, z: 0.9999997}
+    - name: hand.L
+      parentName: forearm.L
+      position: {x: 0.0000000043213366, y: 0.009844881, z: -5.9604643e-10}
+      rotation: {x: -0.033209093, y: -0.043675106, z: -0.044826146, w: 0.99748695}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: arm.R
+      parentName: chest
+      position: {x: 0.00583122, y: 0.0099845715, z: -0.00045087354}
+      rotation: {x: -0.095644474, y: -0.12246407, z: -0.7157712, w: 0.68082774}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000002}
+    - name: forearm.R
+      parentName: arm.R
+      position: {x: 5.9604643e-10, y: 0.0091002425, z: -0.000000002682209}
+      rotation: {x: 0.015268661, y: 0.026787745, z: 0.034346867, w: 0.9989342}
+      scale: {x: 0.9999999, y: 1.0000002, z: 0.9999998}
+    - name: hand.R
+      parentName: forearm.R
+      position: {x: -0.000000001490116, y: 0.00984488, z: -0.000000002980232}
+      rotation: {x: -0.033208977, y: 0.04367505, z: 0.044826105, w: 0.997487}
+      scale: {x: 1.0000012, y: 1.0000008, z: 1}
+    - name: belly
+      parentName: Armature
+      position: {x: -0, y: -0.004864445, z: 0.029420158}
+      rotation: {x: 0.7071068, y: 0.00000003090863, z: 0.00000003090862, w: -0.7071068}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999998}
+    - name: leg.L
+      parentName: belly
+      position: {x: -0.006761579, y: 0.008246392, z: 2.9802322e-10}
+      rotation: {x: -0.020579813, y: 0.7138633, z: -0.13875906, w: -0.6860916}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000002}
+    - name: foreleg.L
+      parentName: leg.L
+      position: {x: -4.4703483e-10, y: 0.008586664, z: 0.0000000010430813}
+      rotation: {x: -0.17534411, y: -0.01721388, z: -0.23506725, w: 0.95587736}
+      scale: {x: 1.0000001, y: 1.0000008, z: 1.0000001}
+    - name: foot.L
+      parentName: foreleg.L
+      position: {x: 1.862645e-10, y: 0.01226515, z: 1.6298145e-11}
+      rotation: {x: 0.06567259, y: -0.027391888, z: 0.7854547, w: 0.6148153}
+      scale: {x: 0.9999995, y: 1.0000001, z: 1.0000002}
+    - name: leg.R
+      parentName: belly
+      position: {x: 0.006761579, y: 0.008246392, z: 2.9802322e-10}
+      rotation: {x: 0.020579873, y: 0.71386325, z: -0.13875903, w: 0.6860917}
+      scale: {x: 1, y: 0.99999994, z: 1.0000001}
+    - name: foreleg.R
+      parentName: leg.R
+      position: {x: 8.1956386e-10, y: 0.008586664, z: 5.9604643e-10}
+      rotation: {x: -0.17534412, y: 0.017213939, z: 0.2350672, w: 0.95587736}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: foot.R
+      parentName: foreleg.R
+      position: {x: 0.000000002235174, y: 0.012265151, z: -4.4703483e-10}
+      rotation: {x: 0.06567281, y: 0.027392134, z: -0.78545463, w: 0.61481524}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000005}
+    - name: Cylinder
+      parentName: aldo_run_martell(Clone)
+      position: {x: 0.7234931, y: 1.2006, z: -0.021495216}
+      rotation: {x: 0.25479195, y: -0.15651901, z: -0.7351323, w: 0.6084106}
+      scale: {x: 100.00004, y: 99.999985, z: 100}
+    - name: martell
+      parentName: aldo_run_martell(Clone)
+      position: {x: 0.7234931, y: 1.2005999, z: -0.021495227}
+      rotation: {x: 0.25479192, y: -0.15651888, z: -0.7351322, w: 0.6084107}
+      scale: {x: 100.00004, y: 99.99999, z: 100}
+    - name: Bone
+      parentName: martell
+      position: {x: 0.008811998, y: 0.0019597984, z: 0.011396355}
+      rotation: {x: 0.3568537, y: -0.09341427, z: 0.92920274, w: 0.02261749}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000015}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
